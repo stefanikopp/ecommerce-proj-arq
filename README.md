@@ -1,5 +1,6 @@
 # Ecommerce - Aula Projeto e Arquitetura 2020
 
+TESTE
 Objetivo: desenvolver um projeto em um padrão arquitetural
 
 Cada grupo deverá construir um projeto na linguagem de programação de sua preferência.
