@@ -12,6 +12,18 @@ public class ClienteModel {
         this.endereco = endereco;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setCpf(int cpf) {
+        this.cpf = cpf;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -26,10 +38,9 @@ public class ClienteModel {
 
     @Override
     public String toString() {
-        return "Cliente{" +
-                "nome='" + nome + '\'' +
-                ", cpf=" + cpf +
-                ", endereco='" + endereco + '\'' +
-                '}';
+
+        return  nome +
+                ";" + cpf +
+                ";" + endereco;
     }
 }
